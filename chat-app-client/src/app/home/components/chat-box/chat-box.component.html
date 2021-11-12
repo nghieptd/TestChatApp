@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-title>Messages</mat-card-title>
+  <mat-card-content class="chat-box">
+    <div class="message-log">
+      <app-chat-bubble>
+        content here
+      </app-chat-bubble>
+    </div>
+    <div class="message-log chat-owner">
+      <app-chat-bubble [isSelf]="true"></app-chat-bubble>
+    </div>
+  </mat-card-content>
+  <mat-divider></mat-divider>
+  <mat-card-footer>
+    <app-chat-input></app-chat-input>
+  </mat-card-footer>
+</mat-card>

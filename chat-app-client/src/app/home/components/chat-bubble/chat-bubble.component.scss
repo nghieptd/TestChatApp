@@ -1,0 +1,17 @@
+@use '@angular/material' as mat;
+
+$bubble-color-self: #c5cae9;
+
+.custom-content {
+    padding: 16px;
+    padding-bottom: 8px;
+}
+.owner {
+    background: $bubble-color-self;
+    & .mat-card-header {
+        justify-content: flex-end;
+    }
+    & .mat-card-content {
+        text-align: right;
+    }
+}

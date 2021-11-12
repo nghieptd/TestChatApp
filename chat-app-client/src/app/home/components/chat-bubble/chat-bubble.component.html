@@ -1,0 +1,11 @@
+<mat-card [class.owner]="isSelf" class="mat-elevation-z8">
+  <mat-card-header>
+    <mat-card-title>
+      {{message.username}}
+    </mat-card-title>
+  </mat-card-header>
+  <mat-divider inset></mat-divider>
+  <mat-card-content class="custom-content">
+    {{message.content}}
+  </mat-card-content>
+</mat-card>
