@@ -13,7 +13,7 @@ namespace ChatApp.API.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Pipeline modified", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "TeamCity Weather Test", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
